@@ -1,0 +1,2453 @@
+/* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      background-image: src('./assets/Uniplusbackground.png');
+    }
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100000;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+    .navbar-wrapper .navbar {
+
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+        z-index: 10000;
+        background-color: #6FCBD8;
+        background-image: none;
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    z-index: 10000;
+
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 20px;
+      z-index: 10000;
+      color: #FFFFFF;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+      z-index: 10000;
+      position: absolute;
+      display: none;
+      left: 0px;
+      top: 10px
+    }
+
+	#disclaimer
+	{
+		color: #9d9d9d;
+		font-family:  'Open Sans', sans-serif;
+		width: 40%;
+		font-size: 8px;
+		left: 60%;
+		position: relative;
+		top: ;
+		
+	}
+	
+	#myPicture
+	{
+		position: relative;
+		display: block;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+	}
+
+
+
+	#iphone 
+	{
+		position: absolute;
+  		display: block;
+		z-index: 1000; 
+  		top: 75px; 
+  		width: 300px;  
+	}
+
+  #appPics
+{
+  position: relative;
+  display: block;
+  z-index: 1000;
+  left:33px;
+  width: 230px;
+  top: 175px; 
+}
+		
+		
+
+  
+	#unilogo
+{
+  	position: absolute;
+  	display: block;
+  	z-index: 900; 
+  	top: 225px;
+  	left: 15%;
+  	width: 250px; 
+  }
+  
+  	#downloadAPP
+  {
+  	position: absolute;
+  	display: block;
+  	z-index: 1000;
+  	top: 480px;
+  	left: 15%;
+	width: 400px;;  	
+  }
+  
+  #learnMore
+  {
+  	position: absolute;
+  	display: block;
+  	left: 0%;
+  	top: 625px;
+  	width: 300px;
+  	height: auto;
+  	z-index: 1000;
+  }
+  
+  #waitList
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 900;
+  	left: 15%;
+  	top: 650px;
+  }
+  
+  #navBarText
+  {
+  	color: #FFFFFF;
+  	font-family: 'Open Sans', sans-serif;
+  	top: 10%;
+  }
+  
+  #downloadPlay 
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 1000;
+  	top: 60.20%;
+  	left: 32%;
+  	height: 295px;
+  	width: 295px;
+  }
+
+
+
+	#unilogoTop
+{
+	position: relative;
+	display: block;
+	z-index: 2000; 
+	top: -10px;
+	left: 0%;
+  	height: 100px;
+  	padding-top: -20px;
+  }
+  
+  #comingSoon 
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 900;
+  	top: 450px;
+  	left: 10%;
+  	width: 500px;
+  }
+  
+  #comingSoon2
+  {
+  	position: absolute;
+  	display: block;
+  	z-index: 1000;
+  	top: 50%;
+  	left: 28%;
+  	width: 40%;
+  	height: 50%;
+  }
+  
+  #comingSoon3
+{
+	position: relative;
+	top: 50px;
+	padding-bottom: 50px;
+	display: block;
+	z-index: 1000;
+	left: 28%;
+	width: 500px;
+}
+
+  
+  #tagline
+  {
+  	position: absolute;
+  	display: block;
+  	z-index: 900;
+  	font-family: 'Open Sans', sans-serif;
+  	top: 375px;
+  	left: 15%;
+  	font-size: 25px;
+  	color: #FFFFFF;
+  }
+  
+  #tagline2
+  {
+ 	position: absolute;
+  	display: block;
+  	z-index: 900;
+  	font-family: 'Open Sans', sans-serif;
+  	top: 410px;
+  	left: 15%;
+  	font-size: 25px;
+  	color: #FFFFFF;
+  }
+  
+  #tagline3
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 1000;
+  	font-family: 'Open Sans', sans-serif;
+  	top: 56%;
+  	left: 15%;
+  	font-size: 25px;
+  	color: #FFFFFF;
+  }
+  
+ #video
+ {
+ 	position: relative;
+ 	display: block;
+ 	left: 10%
+ 	height: 100%;
+ 	width: 100%;
+ }
+ 
+
+	
+#featurettePhotoR
+{
+	position: relative;
+	display: block;
+	width: 380px;
+	left: 10%;
+
+}
+
+#featurettePhotoL
+{
+	left: 0%;
+	position: relative;
+	display: block;
+	width: 350px;
+}
+
+#teamHead
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	position: relative;
+	left: 43%;
+	top: -4%;
+	color: #6fcbd8;
+	z-index: 100;
+	
+}
+
+#top
+
+{
+	left: 16%;
+	top: 45%;
+	position: relative;
+	display: block;
+}
+
+
+#teamPic 
+{
+	height: 200px;
+	position: relative; 
+	display: block;
+	float: left;
+	left: 30%;
+	}
+	
+#teamText
+{
+	left:35%; 
+	position: relative;
+}
+
+h4.teamText
+{
+	color: #848484;
+}
+
+#remoteMarketing
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	position: relative;
+	padding-top: 40px;
+	left: 30%;
+	color: #6fcbd8;
+	z-index: 100;
+}
+
+
+#bar
+{
+	left:50%; 
+	position: relative;
+	margin-left: -6px;
+}
+
+
+
+.fadein { position:relative; }
+.fadein img { position:absolute; left:0; top:0; width:246px; }
+
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 100px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel .container {
+      z-index: 9;
+      width: 100%;
+    }
+
+    .carousel-control {
+      height: 50%;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 300;
+    }
+
+
+    .carousel .item {
+    z-index: 150;
+    width: 100%;
+    height: 100%;
+	    }
+
+    .carousel img {
+    z-index: 200;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+    }
+    
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-top: 200px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 20px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 0%;
+    }
+    .featurette-image.pull-right {
+      margin-left: 0%;
+    }
+
+    /* Thin out the marketing headings */
+    
+    #heading1 {
+    position: relative;
+    display: block;
+      font-size: 300%;
+      color: #6FCBD8;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 0%;
+      top: 70px;
+    }
+    #subHeading1 
+    {
+    	position: relative;
+    	display: inline;
+    	color: #5D5D5D;
+      font-size: 170%;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 0%;
+      top: 75px;
+    }
+    
+    #subText1 {
+    position: relative;
+    display: inline;
+    color: #6F6F6F;
+    font-size: 160%;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 0%;
+    top: 100px;
+}
+    
+    #heading2 {
+    	position: relative;
+    	display: inline;
+    	display: block;
+    	color: #6FCBD8;
+		font-size: 300%;
+   	 	font-weight: 300;
+      	line-height: 1;
+      	letter-spacing: -1px;
+      	font-family: 'Open Sans', sans-serif;
+      	top: 70px;
+}
+
+	#subHeading2 {
+	position: relative;
+	color: #5D5D5D;
+    font-size: 170%;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    top: 75px;
+}
+
+#subText2 {
+	position: relative;
+	color: #6F6F6F;
+    font-size: 160%;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    top: 100px;
+}
+
+#heading3 {
+	position: relative;
+    font-size: 300%;
+    color: #6FCBD8;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 0%;
+    top: 70px;
+}
+
+#subHeading3 {
+	position: relative;
+    font-size: 170%;
+    color: #525355;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 0%;
+    top: 75px;
+}
+
+#subText3 {
+	position: relative;
+	font-size: 160%;
+	color: #6F6F6F;
+	font-weight: 300;
+	line-height: 1.5;
+	letter-spacing: -1px;
+	font-family: 'Open Sans', sans-serif;
+	left: 0%;
+	top: 100px;
+}
+
+#footerLogo 
+{
+	width: 50px;
+	height: 50px;
+	top: 40px;
+	left: 25px;
+	position: relative;
+	display: none;
+
+}
+
+#myFooter
+{
+	width: 100%;
+	height: 15%;
+	top: 200%;
+	margin-top: 100px;;
+	background-color: #242526;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+#footerText 
+{
+	top: 40px;
+	left: 18%;
+  width: 50%;
+	position: relative;
+	display: block;
+}
+
+#twitterButton
+{
+	left: 50%;
+	top: 15px;
+  	width:50px;
+	position: relative;
+	display: block;
+	
+}
+
+#facebookButton
+{
+  top: -15px;
+  left: 70%;
+  width:50px;
+  position: relative;
+  display: block;
+}
+
+#twitterIcon
+{
+	position: absolute;
+	z-index: 2000;
+	height: 33px;	
+	width: 33px;
+	margin-left: 50px;
+}
+
+ #icons
+  {
+  	top: 15px;
+  	left: 76%;
+  	position: absolute;
+  }
+
+#facebookIcon
+{
+	position: absolute;
+	z-index: 2000;
+	height: 40px;
+	width: 40px;
+	top: -3px;
+}
+
+#siteNav
+{
+	display: block;
+}
+
+#mobileNav
+{
+	display: block;
+}
+
+* {
+	margin: 0;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+padding: 0;
+
+}
+
+.wrapper {
+	min-height: 20%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+	
+	}
+	
+.footer, .push {
+	height: 4em;
+}
+
+#storyBackground
+{
+	min-height: 100%;
+	min-width: 100%;
+	display: block;
+	z-index: 1;
+	position: relative;
+}
+
+#storyTitle 
+{
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 30%;
+	left: 35%;
+	color: #FFFFFF;
+	font-size: 70px;
+	z-index: 13;
+	
+}
+
+#storyText
+{
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 20%;
+	left: 7%;
+	color: #FFFFFF;
+	font-size: 20px;
+	z-index: 1000;
+	line-height: 1.5;
+	right: 7%;
+ 
+}
+
+#storyBox
+{
+	background-color: rgba(0, 5, 10, 0.72);
+	display: block;
+	min-width: 100%;
+	height: 70%;
+	top: 35%;
+	z-index: 500;
+	position: absolute;
+	
+}
+
+#badgesBackground
+{
+	width: 100%;
+	position: relative;
+	height: auto;
+	display: block;
+	z-index: 200;
+	top: -200px;
+}
+
+#badges
+{
+	width: 100%;
+	position: absolute:
+	height: auto;
+	display: block;
+	z-index: 1000;
+}
+
+#badgesText
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #6FCBD8;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    left: 30%;
+    position: relative;
+    z-index: 200;
+    margin-bottom: -100px;
+
+}
+
+	
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+    
+.navbar-fixed-top {
+
+margin-bottom: 0px;
+}
+     
+ 
+#learnMore
+  {
+  	
+  	left: 0%;
+  	top: 560px;
+  	width: 250px;
+  }
+
+#navBarText
+  {
+  	top: 10%;
+  }
+  
+  #unilogoTop
+{
+	top: 100px;
+	left: 10%;
+  	height: 100px;
+  }
+  
+      .carousel .item {
+      position: relative;
+		width: 100%;
+		height: auto;
+      }
+      .carousel img {
+        width: 100%;
+        height: auto;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+        
+      }
+    }
+
+	.navColor
+	{
+		color: #FFFFFF;
+	}
+
+    @media (max-width: 976px) {
+
+      
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+		width: 100%;
+		height: auto;
+      }
+      .carousel .item {
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+      .carousel img {
+        height: auto;
+        width: 100%;
+        position: relative;
+      }
+      
+      html,body{height:100%;}
+	.carousel,.item,.active{height:100%; position: relative;}
+	.carousel-inner{height:100%;}
+	
+      
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      
+
+
+  
+     #iphone 
+	{
+		position: absolute;
+  		display: block;
+		z-index: 1000; 
+  		top: 55px; 
+  		width: 250px;  
+	}
+
+  #appPics
+	{
+  	position: relative;
+  	display: block;
+  	z-index: 1000;
+  	left:30px;
+  	top: 138px;
+  	width: 190px; 
+	}
+	
+	#comingSoon 
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 1000;
+  	top: 400px;
+  	left: 5%;
+  	width: 500px;
+  }
+	
+	#unilogo
+{
+  	position: absolute;
+  	display: block;
+  	z-index: 900; 
+  	top: 170px;
+  	left: 10%;
+  	width: 200px; 
+  }
+	
+	#tagline
+  {
+  	
+  	top: 300px;
+  	left: 10%;
+  	font-size: 20px;
+  }
+  
+  #tagline2
+  {
+  	top: 340px;
+  	left: 10%;
+  	font-size: 20px;
+  }
+  
+  
+  #downloadAPP
+  {
+  	width: 350px;
+  	top: 390px;
+  	left: 10%;
+  }
+  
+  #icons
+  {
+  	top: 15px;
+  	left: 76%;
+  	position: absolute;
+  }
+  
+	#twitterIcon
+{
+	height: 30px;	
+	width: 30px;
+}
+
+
+
+#facebookIcon
+{
+	height: 37px;
+	width: 37px;
+}
+
+#locationIcon
+{
+	top: 10px;
+	position: relative;
+}
+
+#twitterButton
+{
+	left: 70%;
+	top: 15px;
+  	width:50px;
+	position: relative;
+	display: block;
+	
+}
+
+#teamHead
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	position: relative;
+	left: 43%;
+	top: -4%;
+	color: #6fcbd8;
+	z-index: 100;
+	
+}
+
+#top
+
+{
+	left: 16%;
+	top: 45%;
+	position: relative;
+	display: block;
+}
+
+#names 
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #6fcbd8;
+	font-size: 25px;
+	line-height: 1;
+}
+
+#titles
+{
+	font-family: 'Open Sans', sans-serif;
+	color: #242526;
+	font-size: 20px;
+	line-height: 1;
+}
+
+#teamPic 
+{
+	height: 200px;
+}
+
+
+#learnMore
+  {
+  	
+  	left: 0%;
+  	top: 500px;
+  	width: 250px;
+  }
+
+}
+
+@media (max-width: 832px) {
+	#learnMore
+  {
+  	
+  	left: 0%;
+  	top: 490px;
+  	width: 240px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+
+	#navbarText
+	{
+		left: 20px;
+	}
+	
+.navbar-inner
+		{
+		margin-left: 20px;
+	}
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+		width: 100%;
+		height: auto;
+      }
+      .carousel .item {
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+      .carousel img {
+        height: auto;
+        width: 100%;
+        position: relative;
+      }
+      
+      html,body{height:100%;}
+	.carousel,.item,.active{height:100%; position: relative;}
+	.carousel-inner{height:100%;}
+	
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      
+     #iphone 
+	{
+		position: absolute;
+  		display: block;
+		z-index: 1000; 
+  		top: 75px; 
+  		width: 190px;  
+	}
+
+  #appPics
+	{
+  	position: relative;
+  	display: block;
+  	z-index: 1000;
+  	left:21px;
+  	top: 138px;
+  	width: 145px; 
+	}
+	
+	#comingSoon 
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 1000;
+  	top: 340px;
+  	left: 5%;
+  	width:300px;
+  }
+	
+	#unilogo
+{
+  	position: absolute;
+  	display: block;
+  	z-index: 1000; 
+  	top: 150px;
+  	left: 10%;
+  	width: 150px; 
+  }
+	
+	#tagline
+  {
+  	
+  	top: 250px;
+  	left: 10%;
+  	font-size: 17px;
+  }
+  
+  #tagline2
+  {
+  	top: 280px;
+  	left: 10%;
+  	font-size: 17px;
+  }
+  
+  
+  #downloadAPP
+  {
+  	width: 300px;
+  	top: 350px;
+  	left: 10%;
+  }
+  
+	
+
+
+#locationIcon
+{
+	top: 10px;
+	position: relative;
+}
+
+#twitterButton
+{
+	left: 70%;
+	top: 15px;
+  	width:50px;
+	position: relative;
+	display: block;
+	
+}
+
+#heading1 {
+      font-size: 30px;
+      left: 5%;
+      top: 70px;
+    }
+    #subHeading1 
+    {
+      font-size: 25px;
+      left: 5%;
+      top: 75px;
+    }
+    
+    #subText1 {
+    font-size: 20px;
+    left: 5%;
+    top: 100px;
+}
+    
+    #heading2 {
+		font-size: 30px;
+      	top: 70px;
+}
+
+	#subHeading2 {
+    font-size: 25px;
+    top: 75px;
+}
+
+#subText2 {
+	
+    font-size: 20px;
+    top: 100px;
+}
+
+#heading3 {
+	position: relative;
+    font-size: 30px;
+    color: #6FCBD8;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 70px;
+}
+
+#subHeading3 {
+	position: relative;
+    font-size: 25px;
+    color: #525355;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 75px;
+}
+
+#subText3 {
+	font-size: 20px;
+	left: 5%;
+	top: 100px;
+}
+
+
+#featurettePhotoR
+{
+	position: relative;
+	display: block;
+	width: 380px;
+	left: 5%;
+
+}
+
+#featurettePhotoL
+{
+	left: -5%;
+	position: relative;
+	display: block;
+	width: 350px;
+}
+
+#comingSoon2
+  {
+  	position: absolute;
+  	display: block;
+  	z-index: 1000;
+  	top: 25%;
+  	left: 20%;
+  	width: 50%;
+  }
+  
+  #storyTitle 
+{
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 15%;
+	left: 30%;
+	color: #FFFFFF;
+	font-size: 50px;
+	z-index: 13;
+	
+}
+
+#learnMore
+  {
+  	
+  	left: 0%;
+  	top: 440px;
+  	width: 230px;
+  }
+
+
+}
+
+@media (max-width: 625px) {
+
+#learnMore
+  {
+  	
+  	left: 0%;
+  	top: 350px;
+  	width: 230px;
+  }
+  #tagline
+  {
+  	
+  	top: 200px;
+  	left: 8%;
+  	font-size: 17px;
+  }
+  
+  #tagline2
+  {
+  	top: 225px;
+  	left: 8%;
+  	font-size: 17px;
+  }
+  
+  
+  #downloadAPP
+  {
+  	width: 300px;
+  	top: 275px;
+  	left: 8%;
+  }
+  
+  #unilogo
+{
+  	position: absolute;
+  	display: block;
+  	z-index: 1000; 
+  	top: 100px;
+  	left: 8%;
+  	width: 150px; 
+  }
+  
+  #iphone 
+	{
+  		top: 60px; 
+  		width: 160px;  
+	}
+  
+   #appPics
+	{
+  	left:20px;
+  	top: 112px;
+  	width: 120px; 
+	}
+  
+}
+@media (max-width: 605px) {
+
+
+#learnMore
+  {
+  	
+  	left: 0%;
+  	top: 330px;
+  	width: 200px;
+  }
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+		width: 100%;
+		height: auto;
+      }
+      .carousel .item {
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+      .carousel img {
+        height: auto;
+        width: 100%;
+        position: relative;
+      }
+      
+      html,body{height:100%;}
+	.carousel,.item,.active{height:100%; position: relative;}
+	.carousel-inner{height:100%;}
+	
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      
+      #tagline
+  {
+  	
+  	top: 220px;
+  	left: 10%;
+  	font-size: 14px;
+  }
+  
+  #tagline2
+  {
+  	top: 245px;
+  	left: 10%;
+  	font-size: 14px;
+  }
+  
+  
+  #downloadAPP
+  {
+  	width: 200px;
+  	top: 270px;
+  	left: 10%;
+  }
+      
+     #iphone 
+	{
+		position: absolute;
+  		display: block;
+		z-index: 1000; 
+  		top: 75px; 
+  		width: 150px;  
+	}
+
+  #appPics
+	{
+  	position: relative;
+  	display: block;
+  	z-index: 1000;
+  	left:17px;
+  	top: 125px;
+  	width: 115px; 
+	}
+	
+	#comingSoon 
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 1000;
+  	top: 280px;
+  	left: 6%;
+  	width:250px;
+  }
+	
+	#unilogo
+{
+  	position: absolute;
+  	display: block;
+  	z-index: 900; 
+  	top: 125px;
+  	left: 10%;
+  	width: 130px; 
+  }
+	
+	
+	
+
+
+#twitterButton
+{
+	left: 70%;
+	top: 15px;
+  	width:30px;
+	position: relative;
+	display: block;
+	
+}
+
+#heading1 {
+    position: relative;
+    display: block;
+      font-size: 25px;
+      color: #6FCBD8;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 5%;
+      top: 70px;
+    }
+    #subHeading1 
+    {
+    	position: relative;
+    	display: inline;
+    	color: #5D5D5D;
+      font-size: 20px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 5%;
+      top: 75px;
+    }
+    
+    #subText1 {
+    font-size: 17px;
+    left: 5%;
+    top: 100px;
+}
+    
+    #heading2 {
+    	position: relative;
+    	display: inline;
+    	display: block;
+    	color: #6FCBD8;
+		font-size: 25px;
+   	 	font-weight: 300;
+      	line-height: 1;
+      	letter-spacing: -1px;
+      	font-family: 'Open Sans', sans-serif;
+      	top: 70px;
+      	left: -5%;
+}
+
+	#subHeading2 {
+	position: relative;
+	color: #5D5D5D;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    top: 75px;
+    left: -5%;
+}
+
+#subText2 {
+    font-size: 17px;
+    top: 100px;
+    left: -5%;
+}
+
+#heading3 {
+	position: relative;
+    font-size: 25px;
+    color: #6FCBD8;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 70px;
+}
+
+#subHeading3 {
+	position: relative;
+    font-size: 20px;
+    color: #525355;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 75px;
+}
+
+#subText3 {
+	font-size: 17px;
+	left: 5%;
+	top: 100px;
+}
+
+
+#featurettePhotoR
+{
+	position: relative;
+	display: block;
+	width: 300px;
+	left: 5%;
+
+}
+
+#featurettePhotoL
+{
+	left: -5%;
+	position: relative;
+	display: block;
+	width: 280px;
+}
+
+
+#myFooter
+{
+	width: 100%;
+	height: 15%;
+	top: 200%;
+	margin-top: 100px;
+	background-color: #242526;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#footerText 
+{
+	top: 40px;
+	left: 18%;
+  width: 50%;
+	position: relative;
+	display: block;
+}
+
+#comingSoon2
+  {
+  	position: absolute;
+  	display: block;
+  	z-index: 1000;
+  	top: 20%;
+  	left: 25%;
+  	width: 50%;
+  }
+  
+  #storyTitle 
+{
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	color: #FFFFFF;
+	font-size: 50px;
+	z-index: 13;
+	
+}
+
+ #twitterButton
+{
+	left: 60%;
+	top: 15px;	
+	height: 5px;
+	width: 10px;
+	position: relative;
+	display: none;
+	
+}
+
+#facebookButton
+{
+  top: -15px;
+  left: 70%;
+  width:50px;
+  position: relative;
+  display: none;
+}
+
+}
+
+
+@media (max-width: 528px) {
+	
+	#tagline
+  {
+  	
+  	top: 160px;
+  	left: 10%;
+  	font-size: 13px;
+  }
+  
+  #tagline2
+  {
+  	top: 180px;
+  	left: 10%;
+  	font-size: 13px;
+  }
+  
+  
+  #downloadAPP
+  {
+  	top: 220px;
+  	left: 10%;
+  }
+      
+     #iphone 
+	{
+		position: absolute;
+  		display: block;
+		z-index: 1000; 
+  		top: 60px; 
+  		width: 130px;  
+	}
+	
+	#unilogo
+	{
+		top: 90px;
+	}
+	
+	#learnMore
+	{
+		top: 280px;
+	}
+	#appPics
+	{
+		top: 105px;
+		width: 99px;
+		left: 15px;
+	}
+}
+
+
+
+
+
+@media (max-width: 478px) {
+
+.navbar-inner
+{
+	margin-bottom: 0px;
+}
+
+
+ #tagline
+  {
+  	
+  	top: 150px;
+  	left: 10%;
+  	font-size: 13px;
+  }
+  
+  #tagline2
+  {
+  	top: 170px;
+  	left: 10%;
+  	font-size: 13px;
+  }
+  
+  
+  #downloadAPP
+  {
+  	top: 220px;
+  	left: 10%;
+  }
+  
+  #unilogo
+  {
+  	top: 70px;
+  }
+  
+  #appPics
+  {
+  	width: 90px;
+  	top: 100px;
+  }
+
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+		width: 100%;
+		height: auto;
+      }
+      .carousel .item {
+        height: 100%;
+        width: 100%;
+        position: relative;
+      }
+      .carousel img {
+        height: auto;
+        width: 100%;
+        position: relative;
+      }
+      
+      html,body{height:100%;}
+	.carousel,.item,.active{height:100%; position: relative;}
+	.carousel-inner{height:100%;}
+	
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      
+     #iphone 
+	{
+		position: absolute;
+  		display: block;
+		z-index: 1000; 
+  		top: 60px; 
+  		width: 120px;  
+	}
+
+  
+	
+	#comingSoon 
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 1000;
+  	top: 225px;
+  	left: 6%;
+  	width:200px;
+  }
+	
+	
+	
+	
+
+#locationIcon
+{
+	top: 10px;
+	position: relative;
+}
+
+#twitterButton
+{
+	left: 70%;
+	top: 15px;
+  	width:30px;
+	position: relative;
+	display: block;
+	
+}
+
+#heading1 {
+    position: relative;
+    display: block;
+      font-size: 20px;
+      color: #6FCBD8;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 5%;
+      top: 70px;
+    }
+    #subHeading1 
+    {
+    	position: relative;
+    	display: inline;
+    	color: #5D5D5D;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 5%;
+      top: 75px;
+    }
+    
+    #subText1 {
+    font-size: 15px;
+    left: 5%;
+    top: 100px;
+}
+    
+    #heading2 {
+    	position: relative;
+    	display: inline;
+    	display: block;
+    	color: #6FCBD8;
+		font-size: 20px;
+   	 	font-weight: 300;
+      	line-height: 1;
+      	letter-spacing: -1px;
+      	font-family: 'Open Sans', sans-serif;
+      	top: 70px;
+      	left: -5%;
+}
+
+	#subHeading2 {
+	position: relative;
+	color: #5D5D5D;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    top: 75px;
+    left: -5%;
+}
+
+#subText2 {
+    font-size: 15px;
+    top: 100px;
+    left: -5%;
+}
+
+#heading3 {
+	position: relative;
+    font-size: 20px;
+    color: #6FCBD8;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 70px;
+}
+
+#subHeading3 {
+	position: relative;
+    font-size: 17px;
+    color: #525355;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 75px;
+}
+
+#subText3 {
+	font-size: 15px;
+	left: 5%;
+	top: 100px;
+}
+
+
+#featurettePhotoR
+{
+	position: relative;
+	display: block;
+	width: 250px;
+	left: 5%;
+
+}
+
+#featurettePhotoL
+{
+	left: -5%;
+	position: relative;
+	display: block;
+	width: 230px;
+}
+
+
+#myFooter
+{
+	width: 100%;
+	height: 15%;
+	top: 200%;
+	margin-top: 100px;
+	background-color: #242526;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+#footerText 
+{
+	top: 40px;
+	left: 18%;
+  width: 50%;
+	position: relative;
+	display: block;
+}
+
+#comingSoon2
+  {
+  	position: absolute;
+  	display: block;
+  	z-index: 1000;
+  	top: 20%;
+  	left: 22%;
+  	width: 50%;
+  }
+  
+  #storyTitle 
+{
+	font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 30%;
+	color: #FFFFFF;
+	font-size: 40px;
+	z-index: 13;
+	
+}
+
+ #twitterButton
+{
+	left: 60%;
+	top: 15px;	
+	height: 5px;
+	width: 10px;
+	position: relative;
+	display: none;
+	
+}
+
+#facebookButton
+{
+  top: -15px;
+  left: 70%;
+  width:50px;
+  position: relative;
+  display: none;
+}
+
+#learnMore
+{
+	top: 270px;
+}
+
+}
+
+@media (max-width: 425px) 
+{
+
+
+
+#tagline
+  {
+  	
+  	top: 120px;
+  	left: 8%;
+  	font-size: 11px;
+  }
+  
+  #tagline2
+  {
+  	top: 140px;
+  	left: 8%;
+  	font-size: 11px;
+  }
+  
+  
+  #downloadAPP
+  {
+  	top: 180px;
+  	left: 8%;
+  }
+  
+  #unilogo
+  {
+  	top: 60px;
+  }
+  
+ #iphone 
+	{
+		position: absolute;
+  		display: block;
+		z-index: 1000; 
+  		top: 30px; 
+  		width: 100px;  
+	}
+
+  #appPics
+	{
+  	position: relative;
+  	display: block;
+  	z-index: 1000;
+  	left:11px;
+  	top: 63px;
+  	width: 77px; 
+	}
+	
+	#learnMore
+	{
+		width: 150px;
+		top: 240px;
+	}
+
+	
+	
+	
+	
+
+#featurettePhotoR
+{
+	position: relative;
+	display: block;
+	width: 170px;
+	left: 5%;
+
+}
+
+#featurettePhotoL
+{
+	left: -5%;
+	position: relative;
+	display: block;
+	width: 150px;
+}
+
+#heading1 {
+    position: relative;
+    display: block;
+      font-size: 20px;
+      color: #6FCBD8;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 5%;
+      top: 20px;
+    }
+    #subHeading1 
+    {
+    	position: relative;
+    	display: inline;
+    	color: #5D5D5D;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 5%;
+      top: 25px;
+    }
+    
+    #subText1 {
+    font-size: 13px;
+    left: 5%;
+    top: 40px;
+}
+    
+    #heading2 {
+    	position: relative;
+    	display: inline;
+    	display: block;
+    	color: #6FCBD8;
+		font-size: 20px;
+   	 	font-weight: 300;
+      	line-height: 1;
+      	letter-spacing: -1px;
+      	font-family: 'Open Sans', sans-serif;
+      	top: 20px;
+      	left: -3%;
+}
+
+	#subHeading2 {
+	position: relative;
+	color: #5D5D5D;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    top: 25px;
+    left: -3%;
+}
+
+#subText2 {
+    font-size: 13px;
+    top: 40px;
+    left: -3%;
+}
+
+#heading3 {
+	position: relative;
+    font-size: 20px;
+    color: #6FCBD8;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 20px;
+}
+
+#subHeading3 {
+	position: relative;
+    font-size: 17px;
+    color: #525355;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 25px;
+}
+
+#subText3 {
+	font-size: 13px;
+	left: 5%;
+	top: 40px;
+}
+
+#myFooter
+{
+	width: 100%;
+	height: 15%;
+	top: 200%;
+	margin-top: 100px;
+	background-color: #242526;
+	font-size: 8px;
+	color: #FFFFFF;
+}
+
+#footerText 
+{
+	top: 40px;
+	left: 10%;
+  width: 50%;
+	position: relative;
+	display: block;
+}
+
+ #twitterButton
+{
+	left: 60%;
+	top: 15px;	
+	height: 5px;
+	width: 10px;
+	position: relative;
+	display: none;
+	
+}
+
+#facebookButton
+{
+  top: -15px;
+  left: 70%;
+  width:50px;
+  position: relative;
+  display: none;
+}
+}
+
+@media (max-width: 320px) 
+{
+
+
+
+
+ #iphone 
+	{
+		position: absolute;
+  		display: block;
+		z-index: 1000; 
+  		top: 12px; 
+  		width: 100px;  
+	}
+
+  #appPics
+	{
+  	position: relative;
+  	display: block;
+  	z-index: 1000;
+  	left:11px;
+  	top: 45px;
+  	width: 77px; 
+	}
+	
+	#comingSoon 
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 1000;
+  	top: 230px;
+  	left: 6%;
+  	width:200px;
+  }
+	
+	#unilogo
+{
+  	position: absolute;
+  	display: block;
+  	z-index: 900; 
+  	top: 40px;
+  	left: 10%;
+  	width: 120px; 
+  }
+	
+	#tagline
+  {
+  	position: absolute;
+  	display: block;
+  	z-index: 1000;
+  	font-family: 'Open Sans', sans-serif;
+  	top: 110px;
+  	left: 10%;
+  	font-size: 12px;
+  	color: #FFFFFF;
+  }
+  
+  #tagline2
+  {
+ 	position: absolute;
+  	display: block;
+  	z-index: 1000;
+  	font-family: 'Open Sans', sans-serif;
+  	top: 130px;
+  	left: 10%;
+  	font-size: 12px;
+  	color: #FFFFFF;
+  }
+
+
+#featurettePhotoR
+{
+	position: relative;
+	display: block;
+	width: 170px;
+	left: 5%;
+
+}
+
+#featurettePhotoL
+{
+	left: -5%;
+	position: relative;
+	display: block;
+	width: 150px;
+}
+
+#heading1 {
+    position: relative;
+    display: block;
+      font-size: 20px;
+      color: #6FCBD8;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 5%;
+      top: 0px;
+    }
+    #subHeading1 
+    {
+    	position: relative;
+    	display: inline;
+    	color: #5D5D5D;
+      font-size: 17px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+      font-family: 'Open Sans', sans-serif;
+      left: 5%;
+      top: 5px;
+    }
+    
+    #subText1 {
+    font-size: 13px;
+    left: 5%;
+    top: 15px;
+}
+    
+    #heading2 {
+    	position: relative;
+    	display: inline;
+    	display: block;
+    	color: #6FCBD8;
+		font-size: 20px;
+   	 	font-weight: 300;
+      	line-height: 1;
+      	letter-spacing: -1px;
+      	font-family: 'Open Sans', sans-serif;
+      	top: 0px;
+      	left: -3%;
+}
+
+	#subHeading2 {
+	position: relative;
+	color: #5D5D5D;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    top: 5px;
+    left: -3%;
+}
+
+#subText2 {
+    font-size: 13px;
+    top: 15px;
+    left: -3%;
+}
+
+#heading3 {
+	position: relative;
+    font-size: 20px;
+    color: #6FCBD8;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 0px;
+}
+
+#subHeading3 {
+	position: relative;
+    font-size: 17px;
+    color: #525355;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: 'Open Sans', sans-serif;
+    left: 5%;
+    top: 5px;
+}
+
+#subText3 {
+	font-size: 13px;
+	left: 5%;
+	top: 15px;
+}
+
+#myFooter
+{
+	width: 100%;
+	height: 15%;
+	top: 200%;
+	margin-top: 100px;
+	background-color: #242526;
+	font-size: 8px;
+	color: #FFFFFF;
+}
+
+#footerText 
+{
+	top: 12px;
+	left: 5%;
+  width: 50%;
+	position: relative;
+	display: block;
+}
+
+
+#comingSoon 
+  {
+  	position: absolute;
+  	display: none;
+  	z-index: 1000;
+  	top: 150px;
+  	left: 5%;
+  	width: 160px;
+  }
+  
+  #twitterButton
+{
+	left: 60%;
+	top: 15px;	
+	height: 5px;
+	width: 10px;
+	position: relative;
+	display: none;
+	
+}
+
+#facebookButton
+{
+  top: -15px;
+  left: 70%;
+  width:50px;
+  position: relative;
+  display: none;
+}
+
+
+
+}
